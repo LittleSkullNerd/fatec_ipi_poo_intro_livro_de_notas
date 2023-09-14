@@ -13,6 +13,9 @@ String nomeDisciplina = javax.swing.JOptionPane.showInputDialog("Digite o nome d
         //livroDeNotas.nomeDisciplina = nomeDisciplina;
         //enviando a mensagem "exibirMensagem" ao objeto livro de notas"
         livroDeNotas.exibirMensagem();
+        //livroDeNotas.nomeDisciplina = "Portugues";
+        System.out.println("A disciplina é " + livroDeNotas.getNomeDisciplina());
         System.out.println("Ate logo");
+        livroDeNotas.setNomeDisciplina("Portugues");
     }
 }
